@@ -5,6 +5,7 @@ import { TeamFormComponent } from './components/team-form/team-form.component';
 import { UpdateFormComponent } from './components/update-form/update-form.component';
 
 import { UserFormComponent } from './components/user-form/user-form.component';
+import { MapcomponentComponent } from './map/mapcomponent/mapcomponent.component';
 
 //import { HomeComponent } from './pages/home/home.component';
 //import { ChatPageModule } from './pages/chat/chat.page';
@@ -96,10 +97,12 @@ const routes: Routes = [
     loadChildren: () => import('./pages/GeneralAdmin/user-to-team/user-to-team.module').then( m => m.UserToTeamPageModule)
   },
 
-  { path: 'update-form', component: UpdateFormComponent},  {
+  { path: 'update-form', component: UpdateFormComponent},
+  {
     path: 'contacts',
     loadChildren: () => import('./pages/GeneralUser/contacts/contacts.module').then( m => m.ContactsPageModule)
   },
+  { path: 'map', component: MapcomponentComponent},
 
 
 ];
