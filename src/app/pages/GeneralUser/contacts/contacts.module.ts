@@ -4,17 +4,18 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ObtainLicensePageRoutingModule } from './obtain-license-routing.module';
+import { ContactsPageRoutingModule } from './contacts-routing.module';
 
-import { ObtainLicensePage } from './obtain-license.page';
+import { ContactsPage } from './contacts.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ObtainLicensePageRoutingModule
+    ContactsPageRoutingModule
   ],
-  declarations: [ObtainLicensePage]
+  declarations: [ContactsPage]
 })
-export class ObtainLicensePageModule {}
+export class ContactsPageModule {}
+
