@@ -1,15 +1,13 @@
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
-
 import { CalendarPageRoutingModule } from './calendar-routing.module';
-
 import { CalendarPage } from './calendar.page';
-
-// Calendar UI Module
 import { CalendarModule } from 'ion2-calendar';
+import { NgCalendarModule  } from 'ionic2-calendar';
+
 
 @NgModule({
   imports: [
@@ -23,8 +21,11 @@ import { CalendarModule } from 'ion2-calendar';
         component: CalendarPage
       }
     ]),
-    CalendarPageRoutingModule
+    CalendarPageRoutingModule,
+    NgCalendarModule,
   ],
   declarations: [CalendarPage]
 })
 export class CalendarPageModule {}
+
+
