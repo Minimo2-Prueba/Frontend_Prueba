@@ -103,6 +103,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/GeneralUser/contacts/contacts.module').then( m => m.ContactsPageModule)
   },
   { path: 'map', component: MapcomponentComponent},
+  {
+    path: 'tarea',
+    loadChildren: () => import('./pages/GeneralUser/tarea/tarea.module').then( m => m.TareaPageModule)
+  },
 
 
 ];
