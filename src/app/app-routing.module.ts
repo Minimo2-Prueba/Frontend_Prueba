@@ -103,10 +103,13 @@ const routes: Routes = [
     loadChildren: () => import('./pages/GeneralUser/contacts/contacts.module').then( m => m.ContactsPageModule)
   },
   { path: 'map', component: MapcomponentComponent},
+<<<<<<< HEAD
   {
     path: 'tarea',
     loadChildren: () => import('./pages/GeneralUser/tarea/tarea.module').then( m => m.TareaPageModule)
   },
+=======
+>>>>>>> 159e7bd (primera versión del mapa)
 
 
 ];

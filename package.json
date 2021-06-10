@@ -23,8 +23,11 @@
     "@ionic/storage": "^3.0.4",
     "@types/leaflet": "^1.7.0",
     "ion2-calendar": "^3.0.0-rc.0",
+<<<<<<< HEAD
     "ionic-angular": "^3.9.10",
     "ionic2-calendar": "^0.6.7",
+=======
+>>>>>>> 159e7bd (primera versión del mapa)
     "leaflet": "^1.7.1",
     "moment": "^2.29.1",
     "ngx-socket-io": "^4.0.0",
