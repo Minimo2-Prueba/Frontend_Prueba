@@ -10,6 +10,7 @@
 
 <ion-content>
 
+  
   <ion-button (click)="addNewEvent()">Add New Event</ion-button>
 
   <calendar [eventSource]="eventSource"
@@ -22,5 +23,4 @@
   (onTimeSelected)="onTimeSelected($event)"
   step="30"> 
 </calendar>
-
 </ion-content>
